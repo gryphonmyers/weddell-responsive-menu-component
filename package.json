@@ -1,0 +1,42 @@
+{
+  "name": "weddell-responsive-menu-component",
+  "version": "1.0.3",
+  "description": "Menu component that can adapt to different display choices based on viewport size.",
+  "main": "index.js",
+  "dependencies": {
+    "debounce": "^1.1.0",
+    "weddell-accordion-component": "^0.6.0",
+    "weddell-menu-component": "^0.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.2.0",
+    "browserify-postcss": "github:gryphonmyers/browserify-postcss",
+    "cssnano": "^3.10.0",
+    "postcss-cssnext": "^3.1.0",
+    "pugvdomify": "^0.2.4",
+    "uglify-es": "^3.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build.js",
+    "preversion": "npm run-script build",
+    "version": "git add dist",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gryphonmyers/weddell-responsive-menu-component.git"
+  },
+  "keywords": [
+    "weddell"
+  ],
+  "author": "Gryphon Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gryphonmyers/weddell-responsive-menu-component/issues"
+  },
+  "homepage": "https://github.com/gryphonmyers/weddell-responsive-menu-component#readme"
+}
