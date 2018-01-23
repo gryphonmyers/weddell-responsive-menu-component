@@ -1,0 +1,13 @@
+if locals.isLoading
+    .loading
+else if locals.isMobile
+    case locals.mobileType
+        when 'accordion'
+            Accordion.responsive-menu.mobile&attributes(locals.$attributes)
+                content
+        when 'list'
+            Menu.responsive-menu.mobile&attributes(locals.$attributes)
+                content
+else
+    Menu.responsive-menu&attributes(locals.$attributes)
+        content

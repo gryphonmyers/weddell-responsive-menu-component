@@ -1,0 +1,11 @@
+:root {
+
+}
+.responsive-dropdown {
+    &.list {
+        flex-wrap: wrap;
+        &.horizontal {
+            flex-wrap: nowrap;
+        }
+    }
+}
