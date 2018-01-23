@@ -1,6 +1,6 @@
 {
   "name": "weddell-responsive-menu-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Menu component that can adapt to different display choices based on viewport size.",
   "main": "index.js",
   "dependencies": {
