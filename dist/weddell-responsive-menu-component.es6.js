@@ -178,77 +178,77 @@ require('pug-vdom/runtime');
   var self = locals;
   for (var prop in locals) eval('var ' + prop + ' =  locals.' + prop)
   var n0Child = []
-  var n197Child = []
-  var n198Child = []
+  var n185Child = []
+  var n186Child = []
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'accordion'},{name:'name', val: 'sections-accordion'},{name:'type', val: locals.type},{name:'id', val: 'accordion-'+locals.$componentID + locals.$id+'-checkbox'}], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n198 = h('input', props, n198Child)
-  n197Child.push(n198)
-  var n199Child = []
-  var n200Child = []
+  var n186 = h('input', props, n186Child)
+  n185Child.push(n186)
+  var n187Child = []
+  var n188Child = []
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'expander'}], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n200 = h('div', props, n200Child)
-  n199Child.push(n200)
-  var n201Child = []
+  var n188 = h('div', props, n188Child)
+  n187Child.push(n188)
+  var n189Child = []
   if(locals.accordionLabelLink && locals.accordionLabelSrc) {
-    var n202Child = []
-    var n203Child = []
+    var n190Child = []
+    var n191Child = []
     var props = {attributes: runtime.compileAttrs([{name:'src', val: locals.accordionLabelSrc}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n203 = h('img', props, n203Child)
-    n202Child.push(n203)
+    var n191 = h('img', props, n191Child)
+    n190Child.push(n191)
     var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.accordionLabelLink}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n202 = h('a', props, n202Child)
-    n201Child.push(n202)
+    var n190 = h('a', props, n190Child)
+    n189Child.push(n190)
   } else {
     if(locals.accordionLabelLink) {
-      var n204Child = []
-      n204Child.push(locals.accordionLabel)
+      var n192Child = []
+      n192Child.push(locals.accordionLabel)
       var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.accordionLabelLink}], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n204 = h('a', props, n204Child)
-      n201Child.push(n204)
+      var n192 = h('a', props, n192Child)
+      n189Child.push(n192)
     } else {
       if(locals.accordionLabelSrc) {
-        var n205Child = []
+        var n193Child = []
         var props = {attributes: runtime.compileAttrs([{name:'src', val: locals.accordionLabelSrc}], [])};
         if (props.attributes.id) props.key = props.attributes.id;
-        var n205 = h('img', props, n205Child)
-        n201Child.push(n205)
+        var n193 = h('img', props, n193Child)
+        n189Child.push(n193)
       } else {
-        var n206Child = []
-        n206Child.push(locals.accordionLabel)
+        var n194Child = []
+        n194Child.push(locals.accordionLabel)
         var props = {attributes: runtime.compileAttrs([], [])};
         if (props.attributes.id) props.key = props.attributes.id;
-        var n206 = h('span', props, n206Child)
-        n201Child.push(n206)
+        var n194 = h('span', props, n194Child)
+        n189Child.push(n194)
       }
     }
   }
   var props = {attributes: runtime.compileAttrs([], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n201 = h('h3', props, n201Child)
-  n199Child.push(n201)
+  var n189 = h('h3', props, n189Child)
+  n187Child.push(n189)
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'accordion-label'},{name:'for', val: 'accordion-' + locals.$componentID + locals.$id + '-checkbox'}], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n199 = h('label', props, n199Child)
-  n197Child.push(n199)
-  var n207Child = []
-  var n208Child = []
+  var n187 = h('label', props, n187Child)
+  n185Child.push(n187)
+  var n195Child = []
+  var n196Child = []
   var props = {attributes: runtime.compileAttrs([], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n208 = h('content', props, n208Child)
-  n207Child.push(n208)
+  var n196 = h('content', props, n196Child)
+  n195Child.push(n196)
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'accordion-content'}], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n207 = h('div', props, n207Child)
-  n197Child.push(n207)
+  var n195 = h('div', props, n195Child)
+  n185Child.push(n195)
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'accordion-row'},{name:'class', val: locals.expanderStyle}], [locals.$attributes])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n197 = h('div', props, n197Child)
-  n0Child.push(n197)
+  var n185 = h('div', props, n185Child)
+  n0Child.push(n185)
   return n0Child
 }
 return render(locals, h);}
@@ -297,16 +297,16 @@ require('pug-vdom/runtime');
   var self = locals;
   for (var prop in locals) eval('var ' + prop + ' =  locals.' + prop)
   var n0Child = []
-  var n73Child = []
-  var n74Child = []
+  var n71Child = []
+  var n72Child = []
   var props = {attributes: runtime.compileAttrs([], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n74 = h('content', props, n74Child)
-  n73Child.push(n74)
+  var n72 = h('content', props, n72Child)
+  n71Child.push(n72)
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'accordion-wrapper'},{name:'id', val: "accordion-"+locals.$id},{name:'onclick', val: $bind("this.handleClick(event)")}], [locals.$attributes])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n73 = h('div', props, n73Child)
-  n0Child.push(n73)
+  var n71 = h('div', props, n71Child)
+  n0Child.push(n71)
   return n0Child
 }
 return render(locals, h);}
@@ -380,88 +380,88 @@ require('pug-vdom/runtime');
   var n0Child = []
   var additionalAttributes = {};
   additionalAttributes.class = 'has-dropdown'
-  var n125Child = []
+  var n88Child = []
   if(locals.href && locals.src) {
-    var n126Child = []
-    var n127Child = []
+    var n89Child = []
+    var n90Child = []
     var props = {attributes: runtime.compileAttrs([{name:'src', val: locals.src}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n127 = h('img', props, n127Child)
-    n126Child.push(n127)
+    var n90 = h('img', props, n90Child)
+    n89Child.push(n90)
     var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.href},{name:'target', val: locals.target}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n126 = h('a', props, n126Child)
-    n125Child.push(n126)
+    var n89 = h('a', props, n89Child)
+    n88Child.push(n89)
   } else {
     if(locals.href && locals.svghref) {
-      var n128Child = []
-      var n129Child = []
-      var n130Child = []
+      var n91Child = []
+      var n92Child = []
+      var n93Child = []
       var props = {attributes: runtime.compileAttrs([{name:'xlink:href', val: locals.svghref}], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n130 = h('use', props, n130Child)
-      n129Child.push(n130)
+      var n93 = h('use', props, n93Child)
+      n92Child.push(n93)
       var props = {attributes: runtime.compileAttrs([], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n129 = h('svg', props, n129Child)
-      n128Child.push(n129)
+      var n92 = h('svg', props, n92Child)
+      n91Child.push(n92)
       var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.href}], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n128 = h('a', props, n128Child)
-      n125Child.push(n128)
+      var n91 = h('a', props, n91Child)
+      n88Child.push(n91)
     } else {
       if(locals.href) {
-        var n131Child = []
-        n131Child.push(locals.content)
+        var n94Child = []
+        n94Child.push(locals.content)
         var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.href},{name:'target', val: locals.target}], [])};
         if (props.attributes.id) props.key = props.attributes.id;
-        var n131 = h('a', props, n131Child)
-        n125Child.push(n131)
+        var n94 = h('a', props, n94Child)
+        n88Child.push(n94)
       } else {
         if(locals.src) {
-          var n132Child = []
+          var n95Child = []
           var props = {attributes: runtime.compileAttrs([{name:'src', val: locals.src}], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n132 = h('img', props, n132Child)
-          n125Child.push(n132)
+          var n95 = h('img', props, n95Child)
+          n88Child.push(n95)
         } else {
           if(locals.svghref) {
-            var n133Child = []
-            var n134Child = []
+            var n96Child = []
+            var n97Child = []
             var props = {attributes: runtime.compileAttrs([{name:'xlink:href', val: locals.svghref}], [])};
             if (props.attributes.id) props.key = props.attributes.id;
-            var n134 = h('use', props, n134Child)
-            n133Child.push(n134)
+            var n97 = h('use', props, n97Child)
+            n96Child.push(n97)
             var props = {attributes: runtime.compileAttrs([], [])};
             if (props.attributes.id) props.key = props.attributes.id;
-            var n133 = h('svg', props, n133Child)
-            n125Child.push(n133)
+            var n96 = h('svg', props, n96Child)
+            n88Child.push(n96)
           } else {
-            var n135Child = []
-            n135Child.push(locals.content)
+            var n98Child = []
+            n98Child.push(locals.content)
             var props = {attributes: runtime.compileAttrs([], [])};
             if (props.attributes.id) props.key = props.attributes.id;
-            var n135 = h('span', props, n135Child)
-            n125Child.push(n135)
+            var n98 = h('span', props, n98Child)
+            n88Child.push(n98)
           }
         }
       }
     }
   }
-  var n136Child = []
-  var n137Child = []
+  var n99Child = []
+  var n100Child = []
   var props = {attributes: runtime.compileAttrs([], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n137 = h('content', props, n137Child)
-  n136Child.push(n137)
+  var n100 = h('content', props, n100Child)
+  n99Child.push(n100)
   var props = {attributes: runtime.compileAttrs([], [locals.$attributes])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n136 = h('Menu', props, n136Child)
-  n125Child.push(n136)
+  var n99 = h('Menu', props, n99Child)
+  n88Child.push(n99)
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'menu-item'}], [locals.$attributes, additionalAttributes])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n125 = h('li', props, n125Child)
-  n0Child.push(n125)
+  var n88 = h('li', props, n88Child)
+  n0Child.push(n88)
   return n0Child
 }
 return render(locals, h);}
@@ -475,69 +475,69 @@ require('pug-vdom/runtime');
   for (var prop in locals) eval('var ' + prop + ' =  locals.' + prop)
   var n0Child = []
   var additionalAttributes = {};
-  var n138Child = []
+  var n77Child = []
   if(locals.href && locals.src) {
-    var n139Child = []
-    var n140Child = []
+    var n78Child = []
+    var n79Child = []
     var props = {attributes: runtime.compileAttrs([{name:'src', val: locals.src}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n140 = h('img', props, n140Child)
-    n139Child.push(n140)
+    var n79 = h('img', props, n79Child)
+    n78Child.push(n79)
     var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.href},{name:'target', val: locals.target}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n139 = h('a', props, n139Child)
-    n138Child.push(n139)
+    var n78 = h('a', props, n78Child)
+    n77Child.push(n78)
   } else {
     if(locals.href && locals.svghref) {
-      var n141Child = []
-      var n142Child = []
-      var n143Child = []
+      var n80Child = []
+      var n81Child = []
+      var n82Child = []
       var props = {attributes: runtime.compileAttrs([{name:'xlink:href', val: locals.svghref}], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n143 = h('use', props, n143Child)
-      n142Child.push(n143)
+      var n82 = h('use', props, n82Child)
+      n81Child.push(n82)
       var props = {attributes: runtime.compileAttrs([], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n142 = h('svg', props, n142Child)
-      n141Child.push(n142)
+      var n81 = h('svg', props, n81Child)
+      n80Child.push(n81)
       var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.href}], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n141 = h('a', props, n141Child)
-      n138Child.push(n141)
+      var n80 = h('a', props, n80Child)
+      n77Child.push(n80)
     } else {
       if(locals.href) {
-        var n144Child = []
-        n144Child.push(locals.content)
+        var n83Child = []
+        n83Child.push(locals.content)
         var props = {attributes: runtime.compileAttrs([{name:'href', val: locals.href},{name:'target', val: locals.target}], [])};
         if (props.attributes.id) props.key = props.attributes.id;
-        var n144 = h('a', props, n144Child)
-        n138Child.push(n144)
+        var n83 = h('a', props, n83Child)
+        n77Child.push(n83)
       } else {
         if(locals.src) {
-          var n145Child = []
+          var n84Child = []
           var props = {attributes: runtime.compileAttrs([{name:'src', val: locals.src}], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n145 = h('img', props, n145Child)
-          n138Child.push(n145)
+          var n84 = h('img', props, n84Child)
+          n77Child.push(n84)
         } else {
           if(locals.svghref) {
-            var n146Child = []
-            var n147Child = []
+            var n85Child = []
+            var n86Child = []
             var props = {attributes: runtime.compileAttrs([{name:'xlink:href', val: locals.svghref}], [])};
             if (props.attributes.id) props.key = props.attributes.id;
-            var n147 = h('use', props, n147Child)
-            n146Child.push(n147)
+            var n86 = h('use', props, n86Child)
+            n85Child.push(n86)
             var props = {attributes: runtime.compileAttrs([], [])};
             if (props.attributes.id) props.key = props.attributes.id;
-            var n146 = h('svg', props, n146Child)
-            n138Child.push(n146)
+            var n85 = h('svg', props, n85Child)
+            n77Child.push(n85)
           } else {
-            var n148Child = []
-            n148Child.push(locals.content)
+            var n87Child = []
+            n87Child.push(locals.content)
             var props = {attributes: runtime.compileAttrs([], [])};
             if (props.attributes.id) props.key = props.attributes.id;
-            var n148 = h('span', props, n148Child)
-            n138Child.push(n148)
+            var n87 = h('span', props, n87Child)
+            n77Child.push(n87)
           }
         }
       }
@@ -545,8 +545,8 @@ require('pug-vdom/runtime');
   }
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'menu-item'}], [locals.$attributes, additionalAttributes])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n138 = h('li', props, n138Child)
-  n0Child.push(n138)
+  var n77 = h('li', props, n77Child)
+  n0Child.push(n77)
   return n0Child
 }
 return render(locals, h);}
@@ -559,16 +559,16 @@ require('pug-vdom/runtime');
   var self = locals;
   for (var prop in locals) eval('var ' + prop + ' =  locals.' + prop)
   var n0Child = []
-  var n65Child = []
-  var n66Child = []
+  var n61Child = []
+  var n62Child = []
   var props = {attributes: runtime.compileAttrs([], [])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n66 = h('content', props, n66Child)
-  n65Child.push(n66)
+  var n62 = h('content', props, n62Child)
+  n61Child.push(n62)
   var props = {attributes: runtime.compileAttrs([{name:'class', val: 'menu'}], [locals.$attributes])};
   if (props.attributes.id) props.key = props.attributes.id;
-  var n65 = h('ul', props, n65Child)
-  n0Child.push(n65)
+  var n61 = h('ul', props, n61Child)
+  n0Child.push(n61)
   return n0Child
 }
 return render(locals, h);}
@@ -589,7 +589,7 @@ module.exports = Component => class ResponsiveDropdown extends Component {
             store: Object.assign(opts.store, {
             }),
             markupTemplate: require('./index.pug'),
-            inputs: ['breakpoint', 'content', 'href', 'src', 'mobileType'],
+            inputs: ['breakpoint', 'content', 'href', 'src', 'mobileType', 'SVGID'],
             components: {
                 MenuItem: require('weddell-menu-component/src/menu-item'),
                 Menu: require('weddell-menu-component/'),
@@ -638,55 +638,55 @@ require('pug-vdom/runtime');
   for (var prop in locals) eval('var ' + prop + ' =  locals.' + prop)
   var n0Child = []
   if(locals.isLoading) {
-    var n45Child = []
+    var n29Child = []
     var props = {attributes: runtime.compileAttrs([{name:'class', val: 'loading'}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n45 = h('div', props, n45Child)
-    n0Child.push(n45)
+    var n29 = h('div', props, n29Child)
+    n0Child.push(n29)
   } else {
     if(locals.isMobile) {
       switch(locals.mobileType) {
         case 'accordion':
-          var n46Child = []
-          var n47Child = []
-          var n48Child = []
+          var n30Child = []
+          var n31Child = []
+          var n32Child = []
           var props = {attributes: runtime.compileAttrs([], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n48 = h('content', props, n48Child)
-          n47Child.push(n48)
+          var n32 = h('content', props, n32Child)
+          n31Child.push(n32)
           var props = {attributes: runtime.compileAttrs([], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n47 = h('ul', props, n47Child)
-          n46Child.push(n47)
-          var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-dropdown'},{name:'accordionLabel', val: locals.content},{name:'accordionLabelLink', val: locals.href},{name:'accordionLabelSrc', val: locals.src}], [locals.$attributes])};
+          var n31 = h('ul', props, n31Child)
+          n30Child.push(n31)
+          var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-dropdown'},{name:'accordionLabel', val: locals.content},{name:'accordionLabelLink', val: locals.href},{name:'accordionLabelSrc', val: locals.src},{name:'accordionLabelSVGID', val: locals.SVGID}], [locals.$attributes])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n46 = h('AccordionRow', props, n46Child)
-          n0Child.push(n46)
+          var n30 = h('AccordionRow', props, n30Child)
+          n0Child.push(n30)
           break;
         case 'list':
-          var n49Child = []
-          var n50Child = []
+          var n33Child = []
+          var n34Child = []
           var props = {attributes: runtime.compileAttrs([], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n50 = h('content', props, n50Child)
-          n49Child.push(n50)
+          var n34 = h('content', props, n34Child)
+          n33Child.push(n34)
           var props = {attributes: runtime.compileAttrs([{name:'class', val: 'list'},{name:'class', val: 'responsive-dropdown'},{name:'class', val: 'mobile'}], [locals.$attributes])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n49 = h('Menu', props, n49Child)
-          n0Child.push(n49)
+          var n33 = h('Menu', props, n33Child)
+          n0Child.push(n33)
           break;
       }
     } else {
-      var n51Child = []
-      var n52Child = []
+      var n35Child = []
+      var n36Child = []
       var props = {attributes: runtime.compileAttrs([], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n52 = h('content', props, n52Child)
-      n51Child.push(n52)
-      var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-dropdown'},{name:'content', val: locals.content},{name:'href', val: locals.href},{name:'src', val: locals.src}], [locals.$attributes])};
+      var n36 = h('content', props, n36Child)
+      n35Child.push(n36)
+      var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-dropdown'},{name:'content', val: locals.content},{name:'href', val: locals.href},{name:'src', val: locals.src},{name:'SVGID', val: locals.SVGID}], [locals.$attributes])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n51 = h('DropdownItem', props, n51Child)
-      n0Child.push(n51)
+      var n35 = h('DropdownItem', props, n35Child)
+      n0Child.push(n35)
     }
   }
   return n0Child
@@ -758,50 +758,50 @@ require('pug-vdom/runtime');
   for (var prop in locals) eval('var ' + prop + ' =  locals.' + prop)
   var n0Child = []
   if(locals.isLoading) {
-    var n15Child = []
+    var n1Child = []
     var props = {attributes: runtime.compileAttrs([{name:'class', val: 'loading'}], [])};
     if (props.attributes.id) props.key = props.attributes.id;
-    var n15 = h('div', props, n15Child)
-    n0Child.push(n15)
+    var n1 = h('div', props, n1Child)
+    n0Child.push(n1)
   } else {
     if(locals.isMobile) {
       switch(locals.mobileType) {
         case 'accordion':
-          var n16Child = []
-          var n17Child = []
+          var n2Child = []
+          var n3Child = []
           var props = {attributes: runtime.compileAttrs([], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n17 = h('content', props, n17Child)
-          n16Child.push(n17)
+          var n3 = h('content', props, n3Child)
+          n2Child.push(n3)
           var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-menu'},{name:'class', val: 'mobile'}], [locals.$attributes])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n16 = h('Accordion', props, n16Child)
-          n0Child.push(n16)
+          var n2 = h('Accordion', props, n2Child)
+          n0Child.push(n2)
           break;
         case 'list':
-          var n18Child = []
-          var n19Child = []
+          var n4Child = []
+          var n5Child = []
           var props = {attributes: runtime.compileAttrs([], [])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n19 = h('content', props, n19Child)
-          n18Child.push(n19)
+          var n5 = h('content', props, n5Child)
+          n4Child.push(n5)
           var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-menu'},{name:'class', val: 'mobile'}], [locals.$attributes])};
           if (props.attributes.id) props.key = props.attributes.id;
-          var n18 = h('Menu', props, n18Child)
-          n0Child.push(n18)
+          var n4 = h('Menu', props, n4Child)
+          n0Child.push(n4)
           break;
       }
     } else {
-      var n20Child = []
-      var n21Child = []
+      var n6Child = []
+      var n7Child = []
       var props = {attributes: runtime.compileAttrs([], [])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n21 = h('content', props, n21Child)
-      n20Child.push(n21)
+      var n7 = h('content', props, n7Child)
+      n6Child.push(n7)
       var props = {attributes: runtime.compileAttrs([{name:'class', val: 'responsive-menu'}], [locals.$attributes])};
       if (props.attributes.id) props.key = props.attributes.id;
-      var n20 = h('Menu', props, n20Child)
-      n0Child.push(n20)
+      var n6 = h('Menu', props, n6Child)
+      n0Child.push(n6)
     }
   }
   return n0Child
