@@ -3,12 +3,12 @@ if locals.isLoading
 else if locals.isMobile
     case locals.mobileType
         when 'accordion'
-            AccordionRow.responsive-dropdown(accordionLabel=locals.content, accordionLabelLink=locals.href, accordionLabelSrc=locals.src)&attributes(locals.$attributes)
+            AccordionRow.responsive-dropdown(accordionLabel=locals.content, accordionLabelLink=locals.href, accordionLabelSrc=locals.src, accordionLabelSVGID=locals.SVGID)&attributes(locals.$attributes)
                 ul
                     content
         when 'list'
             Menu.list.responsive-dropdown.mobile&attributes(locals.$attributes)
                 content
 else
-    DropdownItem.responsive-dropdown(content=locals.content, href=locals.href, src=locals.src)&attributes(locals.$attributes)
+    DropdownItem.responsive-dropdown(content=locals.content, href=locals.href, src=locals.src, SVGID=locals.SVGID)&attributes(locals.$attributes)
         content

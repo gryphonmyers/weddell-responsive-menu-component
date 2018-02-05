@@ -19,6 +19,9 @@
     "pugvdomify": "^0.2.4",
     "uglify-es": "^3.3.8"
   },
+  "peerDependencies": {
+    "weddell": "^1.8.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./scripts/build.js",

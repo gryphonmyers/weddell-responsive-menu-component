@@ -12,7 +12,7 @@ module.exports = Component => class ResponsiveDropdown extends Component {
             store: Object.assign(opts.store, {
             }),
             markupTemplate: require('./index.pug'),
-            inputs: ['breakpoint', 'content', 'href', 'src', 'mobileType'],
+            inputs: ['breakpoint', 'content', 'href', 'src', 'mobileType', 'SVGID'],
             components: {
                 MenuItem: require('weddell-menu-component/src/menu-item'),
                 Menu: require('weddell-menu-component/'),
